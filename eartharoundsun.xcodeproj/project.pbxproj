@@ -14,6 +14,9 @@
 		18011E901C31393E002C52FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18011E8F1C31393E002C52FF /* Images.xcassets */; };
 		18011E931C31393E002C52FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18011E911C31393E002C52FF /* LaunchScreen.xib */; };
 		18011E9F1C31393E002C52FF /* eartharoundsunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18011E9E1C31393E002C52FF /* eartharoundsunTests.m */; };
+		18011EAB1C313C42002C52FF /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 18011EA81C313C42002C52FF /* earth.png */; };
+		18011EAC1C313C42002C52FF /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18011EA91C313C42002C52FF /* moon.png */; };
+		18011EAD1C313C42002C52FF /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 18011EAA1C313C42002C52FF /* sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		18011E981C31393E002C52FF /* eartharoundsunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eartharoundsunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18011E9D1C31393E002C52FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18011E9E1C31393E002C52FF /* eartharoundsunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eartharoundsunTests.m; sourceTree = "<group>"; };
+		18011EA81C313C42002C52FF /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = SOURCE_ROOT; };
+		18011EA91C313C42002C52FF /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = SOURCE_ROOT; };
+		18011EAA1C313C42002C52FF /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		18011E821C31393E002C52FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18011EA81C313C42002C52FF /* earth.png */,
+				18011EA91C313C42002C52FF /* moon.png */,
+				18011EAA1C313C42002C52FF /* sun.png */,
 				18011E831C31393E002C52FF /* Info.plist */,
 				18011E841C31393E002C52FF /* main.m */,
 			);
@@ -199,6 +208,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18011EAD1C313C42002C52FF /* sun.png in Resources */,
+				18011EAB1C313C42002C52FF /* earth.png in Resources */,
+				18011EAC1C313C42002C52FF /* moon.png in Resources */,
 				18011E8E1C31393E002C52FF /* Main.storyboard in Resources */,
 				18011E931C31393E002C52FF /* LaunchScreen.xib in Resources */,
 				18011E901C31393E002C52FF /* Images.xcassets in Resources */,
